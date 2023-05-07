@@ -1,0 +1,9 @@
+<Page loaded="exports.onPageLoaded">
+  <StackLayout>
+    <DropDown id="yearGroupDropdown" />
+    <DropDown id="subjectDropdown" />
+    <TextInput id="topicInput" />
+    <Button id="submitButton" />
+    <TextView id="lessonPlan" />
+  </StackLayout>
+</Page>

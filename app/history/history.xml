@@ -1,0 +1,10 @@
+<Page loaded="exports.onPageLoaded">
+  <ListView items="{{ historyList.items }}" >
+    <v-template>
+      <StackLayout>
+        <Label text="{{ topic }}" fontSize="20" />
+        <TextView text="{{ plan }}" /> 
+      </StackLayout>
+    </v-template>
+  </ListView>
+</Page>
