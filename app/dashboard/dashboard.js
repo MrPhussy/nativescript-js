@@ -22,3 +22,8 @@ exports.onPageLoaded = function() {
     ]
   });
 }
+
+exports.onNavigatingTo = function(args) {
+  var page = args.object; // Reference to the page
+  bottomNav.selectedIndex = 0;  // Select this as active tab
+};
