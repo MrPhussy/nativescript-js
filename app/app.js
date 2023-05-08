@@ -1,4 +1,4 @@
-import { Navigation } from 'ui/navigation';
+import { Navigation } from '@nativescript/core';
 
 // Bottom navigation
 var bottomNav = new Navigation();
